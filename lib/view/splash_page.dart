@@ -134,7 +134,29 @@ class _SplashScreenState extends State<SplashScreen> {
               "assets/logo.png",
               height: 200,
             ),
-
+            SizedBox(height: 30),
+            RichText(
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: 'Jalyuzi',
+                    style: TextStyle(
+                      color: Color(0xFFFCA311),
+                      fontSize: 36,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  TextSpan(
+                    text: ' Master',
+                    style: TextStyle(
+                      color: Color(0xFF14123D),
+                      fontSize: 36,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),
