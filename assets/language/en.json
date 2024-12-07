@@ -1,0 +1,19 @@
+{
+  "sign_up": {
+    "title": "Sign Up",
+    "user_name": "User Name",
+    "phone_number": "Phone Number",
+    "password": "Password"
+  },
+  "sign_in": {
+    "title": "Sign In",
+    "phone_number": "Phone Number",
+    "password": "Password"
+  },
+  "company_select": {
+    "add_company": "Add Company",
+    "create_company": "Create Company",
+    "instruction": "Instruction",
+    "communication": "Communication"
+  }
+}

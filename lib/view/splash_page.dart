@@ -17,11 +17,11 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   final SplashApiService _apiService = SplashApiService();
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _checkFirstVisit();
-  // }
+  @override
+  void initState() {
+    super.initState();
+    _checkFirstVisit();
+  }
 
   Future<void> _checkFirstVisit() async {
     final prefs = await SharedPreferences.getInstance();

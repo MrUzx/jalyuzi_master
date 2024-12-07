@@ -1,0 +1,19 @@
+{
+  "sign_up": {
+    "title": "Ro'yxatdan o'tish",
+    "user_name": "foydalanuvchi nomi",
+    "phone_number": "telefon raqami",
+    "password": "parol"
+  },
+  "sign_in": {
+    "title": "Kirish",
+    "phone_number": "telefon raqami",
+    "password": "parol"
+  },
+  "company_select": {
+    "add_company": "kompaniya qo'shish",
+    "create_company": "kompaniya yaratish",
+    "instruction": "ko'rsatma",
+    "communication": "aloqa"
+  }
+}

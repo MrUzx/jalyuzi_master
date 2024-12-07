@@ -1,0 +1,19 @@
+{
+  "sign_up": {
+    "title": "Регистрация",
+    "user_name": "имя пользователя",
+    "phone_number": "номер телефона",
+    "password": "пароль"
+  },
+  "sign_in": {
+    "title": "Вход",
+    "phone_number": "номер телефона",
+    "password": "пароль"
+  },
+  "company_select": {
+    "add_company": "добавить компанию",
+    "create_company": "создать компанию",
+    "instruction": "инструкция",
+    "communication": "связь"
+  }
+}

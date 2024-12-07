@@ -1,5 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:get/get_common/get_reset.dart';
 import 'package:jalyuzi/widget/custom_container.dart';
 
 class CompanySelectionPage extends StatefulWidget {
@@ -31,7 +32,7 @@ class _CompanySelectionPageState extends State<CompanySelectionPage> {
                   height: 80,
                   width: double.infinity,
                   child: Text(
-                    "qollanma",
+                    'company_select.communication'.tr(),
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium!
@@ -58,7 +59,7 @@ class _CompanySelectionPageState extends State<CompanySelectionPage> {
                                 ),
                                 SizedBox(height: 10),
                                 Text(
-                                  "companiyaga \n qoshilish",
+                                  "select_company.add_company",
                                   style: Theme.of(context)
                                       .textTheme
                                       .bodyMedium!
